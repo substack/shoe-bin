@@ -1,0 +1,35 @@
+{
+  "name": "shoe-bin",
+  "version": "1.0.0",
+  "description": "binary-safe streaming sockjs for node and the browser",
+  "main": "index.js",
+  "dependencies": {
+    "duplexer2": "~0.0.2",
+    "shoe": "~0.0.15",
+    "through2": "~0.6.1"
+  },
+  "devDependencies": {
+    "tape": "^2.13.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/shoe-bin.git"
+  },
+  "homepage": "https://github.com/substack/shoe-bin",
+  "keywords": [
+    "shoe",
+    "websocket",
+    "binary",
+    "safe",
+    "sockjs"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
