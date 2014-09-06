@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "binary-safe streaming sockjs for node and the browser",
   "main": "index.js",
+  "browser": "browser.js",
   "dependencies": {
     "duplexer2": "~0.0.2",
     "shoe": "~0.0.15",

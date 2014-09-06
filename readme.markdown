@@ -25,7 +25,7 @@ stream.pipe(through(function (buf, enc, next) {
 server code:
 
 ``` js
-var shoe = require('shoe');
+var shoe = require('shoe-bin');
 var http = require('http');
 
 var ecstatic = require('ecstatic')(__dirname + '/static');

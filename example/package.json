@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "browserify browser.js -o static/bundle.js"
+  }
+}
